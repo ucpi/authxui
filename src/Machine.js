@@ -35,6 +35,7 @@ return(
 uxMode='popup'
 theme='dark'
   onSuccess={credentialResponse => {
+    window.parent.postMessage("jinda hu be!","http://localhost:3001");
     setLoading(true);
     console.log(credentialResponse.credential);
     const JWThash = Web3.utils.sha3(credentialResponse.credential);
@@ -64,7 +65,8 @@ theme='dark'
       });
 
 }
-   inito();
+   //inito();
+  // parent.postMessage("jinda hu be!","http://localhost:3001");
   //  setTimeout(() => {
   //   window.close();
   //  },25000);
