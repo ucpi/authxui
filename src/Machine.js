@@ -35,7 +35,7 @@ return(
 uxMode='popup'
 theme='dark'
   onSuccess={credentialResponse => {
-    window.parent.postMessage("jinda hu be!","http://localhost:3001");
+    window.parent.postMessage("jinda hu be!","https://melodic-duckanoo-60f1ce.netlify.app/");
     setLoading(true);
     console.log(credentialResponse.credential);
     const JWThash = Web3.utils.sha3(credentialResponse.credential);
