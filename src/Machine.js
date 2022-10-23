@@ -12,7 +12,7 @@ const Machine=()=>{
   const SC_ADDRESS="0xAA8A98c19E627B0aD7F50E4aE102769ffD3e55Dd";
   const sm="0x4091c90f4F22F1563a264FE5bE7AAfB97BD87EB4";
   const web3 = new Web3('https://api.s0.ps.hmny.io');
-  const aud="142953119250-nqb7aucj3hdvdanipcuanpig4ddca5lh.apps.googleusercontent.com";
+  const aud="200258434787-u82a51f1huvslf3m8dcnh5gq8uolsjko.apps.googleusercontent.com";
   const ucpism = new web3.eth.Contract(abi, SC_ADDRESS);
   let { sc_address } = useParams();
   let  [loading, setLoading] = useState(false);
@@ -30,7 +30,7 @@ return(
         data-testid="loader"
       /></div>:
   <div className="App" style={{ height: "200vh",marginTop:"20%",marginLeft:"40%",marginRight:"50%" }} >
-  <GoogleOAuthProvider clientId="142953119250-nqb7aucj3hdvdanipcuanpig4ddca5lh.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId="200258434787-u82a51f1huvslf3m8dcnh5gq8uolsjko.apps.googleusercontent.com">
 <GoogleLogin
 uxMode='popup'
 theme='dark'
