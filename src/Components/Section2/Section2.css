@@ -1,0 +1,92 @@
+.section-2 {
+  /* height: 100vh; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 h1 {
+  margin: 10rem 0 4rem 0;
+  font-size: 6rem;
+  color: #fff;
+}
+
+.section-2 .steps {
+  position: relative;
+  width: 50%;
+  height: 30rem;
+  margin: 2rem;
+}
+
+.section-2 .lottie {
+  position: absolute;
+}
+
+.section-2 .text {
+  position: absolute;
+  top: 7rem;
+}
+
+.section-2 .text h2 {
+  font-size: 5rem;
+  letter-spacing: -0.5rem;
+  font-weight: 300;
+  color: #00abb3;
+}
+
+.section-2 .text p {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.section-2 .lottie-1 {
+  top: 5rem;
+  left: 0;
+}
+
+.section-2 .text-1 {
+  right: 15rem;
+}
+
+.section-2 .step-2 {
+  height: 20rem;
+}
+
+.section-2 .lottie-2 {
+  right: 0;
+  top: 5rem;
+}
+
+.section-2 .text-2 {
+  left: 0;
+  top: 2rem;
+}
+
+.section-2 .lottie-3 {
+  left: 0;
+}
+
+.section-2 .text-3 {
+  right: 0;
+}
+
+.section-2 .lottie-4 {
+  right: 0;
+  top: 2rem;
+}
+
+.section-2 .text-4 {
+  left: 0;
+}
+
+.section-2 .lottie-5 {
+  left: 0;
+  top: 2rem;
+}
+
+.section-2 .text-5 {
+  top: 4rem;
+  right: 25rem;
+}
