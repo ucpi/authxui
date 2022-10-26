@@ -16,7 +16,9 @@
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.6",
     "web-vitals": "^2.1.4",
-    "web3": "^1.8.0"
+    "web3": "^1.8.0",
+    "react-lottie": "1.2.3",
+    "prop-types": "15.8.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
