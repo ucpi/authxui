@@ -13,64 +13,52 @@
   position: absolute;
   top: 15rem;
   left: 15rem;
+  width: 50rem;
 }
 
 .section-1 .text h1 {
   font-size: 6rem;
   font-weight: 500;
-  width: 50rem;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
   padding-bottom: 2rem;
 }
 
 .section-1 .text span {
-  color: #00ABB3;
+  color: #00abb3;
 }
 
 .section-1 .text p {
   font-size: 2.5rem;
-  word-spacing: .5rem;
-  width: 50rem;
-  color: #B2B2B2;
+  word-spacing: 0.5rem;
+  color: #b2b2b2;
 }
 
 @media (max-width: 500px) {
   .section-1 {
-    height: 80vh;
-    justify-content: space-between;
-    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
   }
 
-  .lottie {
-    position: absolute;
+  .section-1 .lottie {
     right: 0;
+    width: 70rem;
+    filter: brightness(40%);
   }
 
-  .text {
-    position: absolute;
-    top: 17rem;
+  .section-1 .text {
+    top: 25rem;
     left: 2rem;
+    width: 45rem;
   }
 
-  .text h1 {
-    font-size: 10rem;
-    font-weight: 500;
-    font-family: "Ubuntu", sans-serif;
-    color: #fff;
-    height: 16rem;
+  .section-1 .text h1 {
+    text-align: center;
+    font-size: 6rem;
+    height: 15rem;
   }
 
-  .text span {
-    font-family: "Shalimar";
-    font-size: 16rem;
-    color: #00abb3;
-    font-weight: 600;
-  }
-
-  .text p {
-    font-size: 2.5rem;
-    letter-spacing: 0.3rem;
-    color: #fff;
+  .section-1 .text p {
+    text-align: center;
   }
 }

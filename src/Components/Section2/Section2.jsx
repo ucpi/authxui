@@ -12,41 +12,26 @@ const Section2 = () => {
     loop: true,
     autoplay: true,
     animationData: google,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
   };
   const transOpt = {
     loop: true,
     autoplay: true,
     animationData: transaction,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
   };
   const verOpt = {
     loop: true,
     autoplay: true,
     animationData: verify,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
   };
   const smartOpt = {
     loop: true,
     autoplay: true,
     animationData: smartContact,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
   };
   const doneOpt = {
     loop: true,
     autoplay: true,
     animationData: done,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
   };
   return (
     <div className="section-2">
