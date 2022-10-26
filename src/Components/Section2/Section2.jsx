@@ -36,7 +36,7 @@ const Section2 = () => {
   return (
     <div className="section-2">
       <h1>How it works?</h1>
-      <div className="steps">
+      <div className="steps step-1">
         <div className="lottie lottie-1">
           <Lottie options={goOpt} />
         </div>
@@ -54,7 +54,7 @@ const Section2 = () => {
           <Lottie options={transOpt} />
         </div>
       </div>
-      <div className="steps">
+      <div className="steps step-3">
         <div className="lottie lottie-3">
           <Lottie options={verOpt} />
         </div>
@@ -63,7 +63,7 @@ const Section2 = () => {
           <p>Verify jwt token and sign sets.</p>
         </div>
       </div>
-      <div className="steps">
+      <div className="steps step-4">
         <div className="text text-4">
           <h2>Step 4</h2>
           <p>Signature goes to smart contact.</p>
@@ -72,7 +72,7 @@ const Section2 = () => {
           <Lottie options={smartOpt} />
         </div>
       </div>
-      <div className="steps">
+      <div className="steps step-5">
         <div className="lottie lottie-5">
           <Lottie options={doneOpt} />
         </div>

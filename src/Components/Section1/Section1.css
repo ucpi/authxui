@@ -30,22 +30,31 @@
   color: #b2b2b2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section-1 {
-    height: 100vh;
+    justify-content: center;
+  }
+
+  .section-1 .text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
   }
 
   .section-1 .lottie {
     filter: brightness(40%);
   }
+}
 
-  .section-1 .text h1 {
-    text-align: center;
-    font-size: 6rem;
-    height: 15rem;
+@media (max-width: 500px) {
+  .section-1 {
+    height: 100vh;
+    margin: 0;
   }
 
-  .section-1 .text p {
+  .section-1 .text {
+    width: 90%;
     text-align: center;
   }
 }
