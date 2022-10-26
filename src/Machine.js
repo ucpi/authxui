@@ -42,7 +42,8 @@ theme='dark'
     async function inito(){
       
       setLoading(true);
-     
+      const accounts = await window.ethereum.request({method:'eth_requestAccounts'});
+      const account = accounts[0];
       const contract = new Contract(
         SC_ADDRESS,
         abi,
