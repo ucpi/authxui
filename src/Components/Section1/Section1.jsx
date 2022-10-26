@@ -19,9 +19,9 @@ const Section1 = () => {
       </div>
       <div className="text">
         <h1>
-          Auth<span>X</span>
+          <span>On-Chain</span> Identity Bridge
         </h1>
-        <p>web2 authentication for web3</p>
+        <p>Smart Contract protocol for decentralised Authentication of Web2 Id's and user account on Blockchain</p>
       </div>
     </div>
   );

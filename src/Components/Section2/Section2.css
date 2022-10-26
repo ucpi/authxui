@@ -8,8 +8,9 @@
 }
 
 .section-2 h1 {
-  margin: 10rem 0 4rem 0;
-  font-size: 6rem;
+  margin-top: 10rem;
+  font-size: 5rem;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -17,7 +18,7 @@
   position: relative;
   width: 50%;
   height: 30rem;
-  margin: 2rem;
+  /* margin: 2rem; */
 }
 
 .section-2 .lottie {
@@ -30,7 +31,7 @@
 }
 
 .section-2 .text h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: -0.5rem;
   font-weight: 300;
   color: #00abb3;
@@ -82,7 +83,7 @@
 }
 
 .section-2 .lottie-5 {
-  left: 0;
+  left: 5rem;
   top: 2rem;
 }
 

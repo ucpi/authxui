@@ -6,34 +6,33 @@
 
 .section-1 .lottie {
   position: absolute;
-  right: 25rem;
+  right: 15rem;
 }
 
 .section-1 .text {
   position: absolute;
-  top: 17rem;
-  left: 25rem;
+  top: 15rem;
+  left: 15rem;
 }
 
 .section-1 .text h1 {
-  font-size: 10rem;
+  font-size: 6rem;
   font-weight: 500;
+  width: 50rem;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
-  height: 16rem;
+  padding-bottom: 2rem;
 }
 
 .section-1 .text span {
-  font-family: "Shalimar";
-  font-size: 16rem;
-  color: #00abb3;
-  font-weight: 600;
+  color: #00ABB3;
 }
 
 .section-1 .text p {
   font-size: 2.5rem;
-  letter-spacing: 0.3rem;
-  color: #fff;
+  word-spacing: .5rem;
+  width: 50rem;
+  color: #B2B2B2;
 }
 
 @media (max-width: 500px) {

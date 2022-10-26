@@ -75,7 +75,7 @@ const Section2 = () => {
         </div>
         <div className="text text-3">
           <h2>Step 3</h2>
-          <p>Verify gwt token and sign sets.</p>
+          <p>Verify jwt token and sign sets.</p>
         </div>
       </div>
       <div className="steps">
