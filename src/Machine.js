@@ -3,18 +3,19 @@ import abi from "./abi/abi.json";
 import Web3 from "web3";
 import './index.css';
 import {ethers,providers,Contract} from "ethers";
-import {init,getproof, autologin, nodecount} from "authxveta";
+import {init,getproof, autologin, nodecount} from "@ucpi/authx";
 import { useEffect,useState } from 'react';
+import io from 'socket.io-client';
 import { BrowserRouter, Route,Router,Routes,useParams } from 'react-router-dom';
 import ClipLoader from "react-spinners/ClipLoader";
 const Machine=()=>{
   
-  const SC_ADDRESS="0xAA8A98c19E627B0aD7F50E4aE102769ffD3e55Dd";
+  const SC_ADDRESS="0xdCFbBec5f22b22ACE035C588Bec740185f7cfD3B";
   const sm="0x4091c90f4F22F1563a264FE5bE7AAfB97BD87EB4";
   const web3 = new Web3('https://api.s0.ps.hmny.io');
   const aud="142953119250-nqb7aucj3hdvdanipcuanpig4ddca5lh.apps.googleusercontent.com";
   const ucpism = new web3.eth.Contract(abi, SC_ADDRESS);
-  let { sc_address } = useParams();
+  let { sc_address,tracker } = useParams();
   let  [loading, setLoading] = useState(false);
   let [color, setColor] = useState("#1cc4d4");
   const provider = new providers.Web3Provider(window.ethereum);
@@ -35,11 +36,11 @@ return(
 uxMode='popup'
 theme='dark'
   onSuccess={credentialResponse => {
-    window.parent.postMessage("jinda hu be!","http://localhost:3001");
-    setLoading(true);
+   // setLoading(true);
     console.log(credentialResponse.credential);
     const JWThash = Web3.utils.sha3(credentialResponse.credential);
     async function inito(){
+      
       setLoading(true);
      
       const contract = new Contract(
@@ -48,33 +49,17 @@ theme='dark'
         signer
       );
       contract.authxlogin(JWThash,sc_address).then((e) => {
-        getproof(aud,credentialResponse.credential).then(e=>
+        getproof(aud,credentialResponse.credential,tracker).then(e=>
           {
-            console.log(e);
-            if(e=="success"){
-              setLoading(false);
-              window.close();
-            }
-            else{
-              setLoading(false);
-              alert("Auth failed")
-              window.close();
-            }
+          
           });
       
       });
 
 }
-   //inito();
-  // parent.postMessage("jinda hu be!","http://localhost:3001");
-  //  setTimeout(() => {
-  //   window.close();
-  //  },25000);
-   //opener.document.isl="login";
-   
-   //self.close();
-   // proofo();
-    
+
+inito();
+
   }}
   onError={() => {
     console.log('Login Failed');

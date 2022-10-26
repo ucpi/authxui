@@ -12,7 +12,7 @@ return(
   <>
     <BrowserRouter>
       <Routes>
-      <Route path="/authx/:sc_address" element={<Machine/>}/>
+      <Route path="/authx/:sc_address/:tracker" element={<Machine/>}/>
 </Routes>
 </BrowserRouter>
 </>
