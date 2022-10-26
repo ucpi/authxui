@@ -1,18 +1,14 @@
 .section-1 {
   height: 90vh;
+  margin: 0 15rem;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 
-.section-1 .lottie {
-  position: absolute;
-  right: 15rem;
-}
-
+.section-1 .lottie,
 .section-1 .text {
-  position: absolute;
-  top: 15rem;
-  left: 15rem;
   width: 50rem;
 }
 
@@ -37,19 +33,10 @@
 @media (max-width: 500px) {
   .section-1 {
     height: 100vh;
-    overflow-x: hidden;
   }
 
   .section-1 .lottie {
-    right: 0;
-    width: 70rem;
     filter: brightness(40%);
-  }
-
-  .section-1 .text {
-    top: 25rem;
-    left: 2rem;
-    width: 45rem;
   }
 
   .section-1 .text h1 {

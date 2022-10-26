@@ -15,19 +15,18 @@
 }
 
 .section-2 .steps {
-  position: relative;
-  width: 50%;
-  height: 30rem;
-  /* margin: 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70rem;
+  margin-bottom: 5rem;
 }
 
 .section-2 .lottie {
-  position: absolute;
+  width: 25rem;
 }
 
 .section-2 .text {
-  position: absolute;
-  top: 7rem;
 }
 
 .section-2 .text h2 {
@@ -42,58 +41,7 @@
   font-size: 3rem;
 }
 
-.section-2 .lottie-1 {
-  top: 5rem;
-  left: 0;
-}
-
-.section-2 .text-1 {
-  right: 15rem;
-}
-
-.section-2 .step-2 {
-  height: 20rem;
-}
-
-.section-2 .lottie-2 {
-  right: 0;
-  top: 5rem;
-}
-
-.section-2 .text-2 {
-  left: 0;
-  top: 2rem;
-}
-
-.section-2 .lottie-3 {
-  left: 0;
-}
-
-.section-2 .text-3 {
-  right: 0;
-}
-
-.section-2 .lottie-4 {
-  right: 0;
-  top: 2rem;
-}
-
-.section-2 .text-4 {
-  left: 0;
-}
-
-.section-2 .lottie-5 {
-  left: 5rem;
-  top: 2rem;
-}
-
-.section-2 .text-5 {
-  top: 4rem;
-  right: 25rem;
-}
-
 @media (max-width: 500px) {
-
   .section-2 h1 {
     margin: 5rem 0;
   }
@@ -103,57 +51,5 @@
     width: 100%;
     height: 40rem;
     /* margin: 2rem; */
-  }
-
-  .section-2 .text {
-    position: absolute;
-    top: 0rem;
-  }
-
-  .section-2 .lottie-1 {
-    top: 5rem;
-    left: 8rem;
-  }
-
-  .section-2 .text-1 {
-    right: 13rem;
-  }
-
-  .section-2 .lottie-2 {
-    left: 1rem;
-    top: 15rem;
-  }
-
-  .section-2 .text-2 {
-    left: 10rem;
-    top: 0rem;
-  }
-
-  .section-2 .lottie-3 {
-    left: 0;
-  }
-
-  .section-2 .text-3 {
-    right: 6rem;
-  }
-
-  .section-2 .lottie-4 {
-    right: 10rem;
-    top: 15rem;
-  }
-
-  .section-2 .text-4 {
-    top: 5rem;
-    left: 4rem;
-  }
-
-  .section-2 .lottie-5 {
-    left: 9rem;
-    top: 17rem;
-  }
-
-  .section-2 .text-5 {
-    top: 10rem;
-    right: 20rem;
   }
 }

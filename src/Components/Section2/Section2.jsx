@@ -38,7 +38,7 @@ const Section2 = () => {
       <h1>How it works?</h1>
       <div className="steps">
         <div className="lottie lottie-1">
-          <Lottie options={goOpt} height={200} width={200} />
+          <Lottie options={goOpt} />
         </div>
         <div className="text text-1">
           <h2>Step 1</h2>
@@ -51,12 +51,12 @@ const Section2 = () => {
           <p>Sign the Transaction.</p>
         </div>
         <div className="lottie lottie-2">
-          <Lottie options={transOpt} height={50} width={400} />
+          <Lottie options={transOpt} />
         </div>
       </div>
       <div className="steps">
         <div className="lottie lottie-3">
-          <Lottie options={verOpt} height={300} width={300} />
+          <Lottie options={verOpt} />
         </div>
         <div className="text text-3">
           <h2>Step 3</h2>
@@ -69,12 +69,12 @@ const Section2 = () => {
           <p>Signature goes to smart contact.</p>
         </div>
         <div className="lottie lottie-4">
-          <Lottie options={smartOpt} height={200} width={200} />
+          <Lottie options={smartOpt} />
         </div>
       </div>
       <div className="steps">
         <div className="lottie lottie-5">
-          <Lottie options={doneOpt} height={200} width={200} />
+          <Lottie options={doneOpt} />
         </div>
         <div className="text text-5">
           <h2>Step 5</h2>
