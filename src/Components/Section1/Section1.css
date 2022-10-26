@@ -1,0 +1,77 @@
+.section-1 {
+  height: 90vh;
+  justify-content: space-between;
+  position: relative;
+}
+
+.section-1 .lottie {
+  position: absolute;
+  right: 25rem;
+}
+
+.section-1 .text {
+  position: absolute;
+  top: 17rem;
+  left: 25rem;
+}
+
+.section-1 .text h1 {
+  font-size: 10rem;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  height: 16rem;
+}
+
+.section-1 .text span {
+  font-family: "Shalimar";
+  font-size: 16rem;
+  color: #00abb3;
+  font-weight: 600;
+}
+
+.section-1 .text p {
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .section-1 {
+    height: 80vh;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .lottie {
+    position: absolute;
+    right: 0;
+  }
+
+  .text {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+  }
+
+  .text h1 {
+    font-size: 10rem;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+    height: 16rem;
+  }
+
+  .text span {
+    font-family: "Shalimar";
+    font-size: 16rem;
+    color: #00abb3;
+    font-weight: 600;
+  }
+
+  .text p {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    color: #fff;
+  }
+}
