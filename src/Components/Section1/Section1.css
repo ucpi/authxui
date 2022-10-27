@@ -1,77 +1,60 @@
 .section-1 {
   height: 90vh;
+  margin: 0 15rem;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 
-.section-1 .lottie {
-  position: absolute;
-  right: 25rem;
-}
-
+.section-1 .lottie,
 .section-1 .text {
-  position: absolute;
-  top: 17rem;
-  left: 25rem;
+  width: 50rem;
 }
 
 .section-1 .text h1 {
-  font-size: 10rem;
+  font-size: 6rem;
   font-weight: 500;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
-  height: 16rem;
+  padding-bottom: 2rem;
 }
 
 .section-1 .text span {
-  font-family: "Shalimar";
-  font-size: 16rem;
   color: #00abb3;
-  font-weight: 600;
 }
 
 .section-1 .text p {
   font-size: 2.5rem;
-  letter-spacing: 0.3rem;
-  color: #fff;
+  word-spacing: 0.5rem;
+  color: #b2b2b2;
+}
+
+@media (max-width: 1000px) {
+  .section-1 {
+    justify-content: center;
+  }
+
+  .section-1 .text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .section-1 .lottie {
+    filter: brightness(40%);
+  }
 }
 
 @media (max-width: 500px) {
   .section-1 {
-    height: 80vh;
-    justify-content: space-between;
-    position: relative;
+    height: 100vh;
+    margin: 0;
   }
 
-  .lottie {
-    position: absolute;
-    right: 0;
-  }
-
-  .text {
-    position: absolute;
-    top: 17rem;
-    left: 2rem;
-  }
-
-  .text h1 {
-    font-size: 10rem;
-    font-weight: 500;
-    font-family: "Ubuntu", sans-serif;
-    color: #fff;
-    height: 16rem;
-  }
-
-  .text span {
-    font-family: "Shalimar";
-    font-size: 16rem;
-    color: #00abb3;
-    font-weight: 600;
-  }
-
-  .text p {
-    font-size: 2.5rem;
-    letter-spacing: 0.3rem;
-    color: #fff;
+  .section-1 .text {
+    width: 90%;
+    text-align: center;
   }
 }
