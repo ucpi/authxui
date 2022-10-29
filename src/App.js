@@ -16,7 +16,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/authx/:sc_address/:tracker" element={<Machine />} />
+          <Route path="/authx/:sc_address" element={<Machine />} />
         </Routes>
       </BrowserRouter>
     </>

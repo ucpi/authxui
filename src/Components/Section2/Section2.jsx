@@ -57,7 +57,7 @@ const Section2 = () => {
       <div className="steps step-3">
         <div className="text text-3">
           <h2>Step 3</h2>
-          <p>Nodes Verify jwt token and signs it.</p>
+          <p>Verify jwt token and sign sets.</p>
         </div>
         <div className="lottie lottie-3">
           <Lottie options={verOpt} />
