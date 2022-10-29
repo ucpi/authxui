@@ -19,6 +19,10 @@ const Section1 = () => {
           Smart Contract protocol for decentralised Authentication of Web2 Id's
           and user account on Blockchain
         </p>
+        <div className="btn-wrapper">
+          <button className="btn btn-left">Get Started</button>
+          <button className="btn btn-right">How it Works?</button>
+        </div>
       </div>
       <div className="lottie">
         <Lottie options={defaultOptions} />
