@@ -1,0 +1,35 @@
+.feature {
+  width: 25rem;
+  height: 25rem;
+  margin: 1rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 3rem;
+  cursor: pointer;
+}
+
+.feature i {
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: #13fee2;
+  color: #3c4048;
+  border-radius: 50%;
+}
+
+.feature p {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 3rem;
+  word-spacing: 0.2rem;
+}
+
+@media (max-width: 500px) {
+  .feature p {
+    font-size: 2.5rem;
+  }
+
+  .feature i {
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
+}
