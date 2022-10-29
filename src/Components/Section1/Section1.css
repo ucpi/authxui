@@ -9,7 +9,7 @@
 
 .section-1 .lottie,
 .section-1 .text {
-  width: 60rem;
+  width: 50rem;
 }
 
 .section-1 .text h1 {
@@ -21,43 +21,13 @@
 }
 
 .section-1 .text span {
-  color: #13fee2;
+  color: #00abb3;
 }
 
 .section-1 .text p {
   font-size: 2.5rem;
   word-spacing: 0.5rem;
   color: #b2b2b2;
-}
-
-.section-1 .text .btn-wrapper {
-  padding: 3rem 0;
-}
-
-.section-1 .text .btn {
-  font-size: 1.8rem;
-  letter-spacing: .1rem;
-  border:  2px solid #13fee2;
-  margin-right: 2rem;
-  padding: 1.5rem 4rem;
-  border-radius: .5rem;
-  cursor: pointer;
-  transition: all .3s;
-}
-
-.section-1 .text .btn-left {
-  background-color: #13fee2;
-  color: #3c4048;
-}
-
-.section-1 .text .btn-right {
-  background-color: transparent;
-  color: #13fee2;
-}
-
-.section-1 .text .btn-right:hover {
-  background-color: #13fee2;
-  color: #3c4048;
 }
 
 @media (max-width: 1000px) {
@@ -77,8 +47,9 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .section-1 {
+    height: 100vh;
     margin: 0;
   }
 
