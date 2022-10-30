@@ -38,7 +38,7 @@ const Section2 = () => {
       <h1>How it works?</h1>
       <div className="steps step-1">
         <div className="text text-1">
-          <h2>Step 1</h2>
+          <h2>Step <span>1</span></h2>
           <p>Login with Google.</p>
         </div>
         <div className="lottie lottie-1">
@@ -50,13 +50,13 @@ const Section2 = () => {
           <Lottie options={transOpt} />
         </div>
         <div className="text text-2">
-          <h2>Step 2</h2>
+          <h2>Step <span>2</span></h2>
           <p>Sign the Transaction.</p>
         </div>
       </div>
       <div className="steps step-3">
         <div className="text text-3">
-          <h2>Step 3</h2>
+          <h2>Step <span>3</span></h2>
           <p>Verify jwt token and sign sets.</p>
         </div>
         <div className="lottie lottie-3">
@@ -68,13 +68,13 @@ const Section2 = () => {
           <Lottie options={smartOpt} />
         </div>
         <div className="text text-4">
-          <h2>Step 4</h2>
+          <h2>Step <span>4</span></h2>
           <p>Signature goes to smart contact.</p>
         </div>
       </div>
       <div className="steps step-5">
         <div className="text text-5">
-          <h2>Step 5</h2>
+          <h2>Step <span>5</span></h2>
           <p>All done.</p>
         </div>
         <div className="lottie lottie-5">

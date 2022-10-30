@@ -28,10 +28,17 @@
 
 .section-2 .text h2 {
   font-size: 4rem;
-  letter-spacing: -0.5rem;
   font-weight: 300;
   color: #13fee2;
 }
+
+/* .section-2 .text span {
+  background-color: #13fee2;
+  color: #3c4048;
+  padding: 0 2rem;
+  border-radius: 50%;
+  font-size: 3rem;
+} */
 
 .section-2 .text p {
   color: #fff;
@@ -61,9 +68,8 @@
     margin: 2rem 0;
   }
 
-  .section-2 .step-1,
-  .section-2 .step-3,
-  .section-2 .step-5 {
+  .section-2 .step-2,
+  .section-2 .step-4 {
     flex-direction: column-reverse;
   }
 }
@@ -75,10 +81,24 @@
 
   .section-2 .steps {
     width: 100%;
-    height: 40rem;
+  }
+
+  .section-2 .step-2 {
+    height: 20rem;
+    margin-bottom: 10rem;
   }
 
   .section-2 .lottie {
     width: 40rem;
+  }
+
+  .section-2 .lottie-1,
+  .section-2 .lottie-3 {
+    width: 30rem;
+  }
+
+  .section-2 .lottie-4,
+  .section-2 .lottie-5 {
+    width: 20rem;
   }
 }
