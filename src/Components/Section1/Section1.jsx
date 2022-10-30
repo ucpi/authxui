@@ -2,6 +2,7 @@ import React from "react";
 import "./Section1.css";
 import Lottie from "react-lottie";
 import animation from "../crypto.json";
+import { ScrollTo } from "react-scroll-to/dist";
 
 const Section1 = () => {
   const defaultOptions = {
@@ -20,8 +21,16 @@ const Section1 = () => {
           and user account on Blockchain
         </p>
         <div className="btn-wrapper">
-          <button className="btn btn-left">Get Started</button>
-          <button className="btn btn-right">How it Works?</button>
+          <ScrollTo>
+            {({ scroll }) => (
+              <button className="btn btn-left" onClick={() => scroll({ y: 0, smooth: true })}>Get Started</button>
+            )}
+          </ScrollTo>
+          <ScrollTo>
+            {({ scroll }) => (
+              <button className="btn btn-right" onClick={() => scroll({ y: 2000, smooth: true })}>How it Works?</button>
+            )}
+          </ScrollTo>
         </div>
       </div>
       <div className="lottie">
