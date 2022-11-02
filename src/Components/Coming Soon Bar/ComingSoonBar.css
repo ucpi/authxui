@@ -1,0 +1,21 @@
+.cs-bar {
+    display: flex;
+    align-items: center;
+    padding: 3rem 10rem;
+    justify-content: center;
+}
+
+.cs-bar .img-container {
+    display: flex;
+    padding: 0 2rem
+}
+
+.cs-bar h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.cs-bar .img-container img {
+    width: 6rem;
+    margin: 0 2rem;
+}
