@@ -1,0 +1,40 @@
+.feature {
+  width: 30rem;
+  height: 20rem;
+  margin: 2rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 3rem;
+  border: 2px solid #d2dbf2;
+  cursor: pointer;
+  text-align: center;
+}
+
+.feature i {
+  font-size: 3rem;
+  color: #3c4048;
+  border-radius: 50%;
+}
+
+.feature i:hover {
+  color: #3e97ff;
+}
+
+.feature p {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #3f4254;
+}
+
+@media (max-width: 500px) {
+  .feature p {
+    font-size: 2.5rem;
+  }
+
+  .feature i {
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
+}
