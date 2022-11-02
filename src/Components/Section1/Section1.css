@@ -93,27 +93,3 @@
   width: 8rem;
   margin: 1rem;
 }
-
-@media (max-width: 1000px) {
-  .section-1 {
-    justify-content: center;
-  }
-
-  .section-1 .text {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 999;
-  }
-}
-
-@media (max-width: 600px) {
-  .section-1 {
-    margin: 0;
-  }
-
-  .section-1 .text {
-    width: 90%;
-    text-align: center;
-  }
-}

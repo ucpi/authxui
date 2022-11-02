@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 15rem;
 }
 
 h1 {
@@ -25,21 +24,4 @@ a {
 
 a:hover {
   color: #0060ff;
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    justify-content: space-between;
-    padding: 2rem;
-  }
-
-  .links {
-    padding-right: 0rem;
-  }
-
-  a {
-    color: #fff;
-    padding: 0 2rem;
-    transition: all 0.5s;
-  }
 }
