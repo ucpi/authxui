@@ -42,15 +42,15 @@
 
 .section-4 .chain-arrow {
   position: absolute;
-  right: 15%;
+  right: 16%;
   top: 33rem;
-  width: 45%;
+  width: 50%;
   height: 45rem;
   border: 2px solid #000;
 }
 
 .section-4 .user-img {
-  width: 15rem;
+  width: 12%;
   position: absolute;
   top: 8%;
   left: 15%;
@@ -60,12 +60,12 @@
   width: 20rem;
   position: absolute;
   bottom: 0;
-  left: 15rem;
+  left: 13%;
 }
 
 .section-4 .img-wrapper {
-  width: 20rem;
-  height: 20rem;
+  width: 16%;
+  height: 17%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,15 +77,15 @@
 }
 
 .section-4 .img-wrapper img {
-  width: 8rem;
+  width: 35%;
   margin: 1rem;
 }
 
 .section-4 .blockchain-img {
-  width: 20rem;
+  width: 16%;
   position: absolute;
   top: 68rem;
-  right: 40rem;
+  right: 33%;
   background-color: #f2f7fb;
   padding: 1rem;
 }
@@ -114,14 +114,14 @@
 
 .section-4 .step-3 {
   top: 43rem;
-  left: 15rem;
+  left: 8%;
   width: 30rem;
   text-align: right;
 }
 
 .section-4 .step-4 {
   top: 90rem;
-  right: 18rem;
+  right: 16%;
   width: 30rem;
   text-align: left;
 }
@@ -150,5 +150,3 @@
     margin-top: 5rem;
   }
 }
-
-/*  */
