@@ -38,6 +38,10 @@ const Section4 = () => {
       <a href="" className="doc-link">
         Learn More
       </a>
+
+      <div className="dapp-developer">
+        <p>If you are a Dapp developer, <a href="">click here</a> to get started!</p>
+      </div>
     </div>
   );
 };

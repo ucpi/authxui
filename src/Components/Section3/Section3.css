@@ -14,7 +14,7 @@
 
 .section-3 span {
   font-size: 2.5rem;
-  background: -webkit-linear-gradient(87deg,#36beff,#733ff1);
+  background: -webkit-linear-gradient(87deg, #36beff, #733ff1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -25,6 +25,18 @@
   justify-content: center;
   width: 60%;
   flex-wrap: wrap;
+}
+
+@media (max-width: 1400px) {
+  .section-3 .features-container {
+    width: 80%;
+  }
+}
+
+@media (max-width:1000px) {
+  .section-3 .features-container {
+    width: 95%;
+  }
 }
 
 @media (max-width: 500px) {

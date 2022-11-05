@@ -1,0 +1,29 @@
+.section-5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-5 h1 {
+  margin: 15rem 0 5rem 0;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.section-5 .faq-container {
+  width: 60rem;
+  height: 60rem;
+  background-color: #f2f7fb;
+  border-radius: 2rem;
+  margin: 5rem 0 10rem 0;
+}
+
+@media (max-width: 500px) {
+  .section-5 .faq-container {
+    width: 90%;
+  }
+}

@@ -5,7 +5,7 @@ import { ScrollTo } from "react-scroll-to/dist";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1>UCPI</h1>
+      <h1>authx</h1>
       <div className="links">
         <ScrollTo>
           {({ scroll }) => (
