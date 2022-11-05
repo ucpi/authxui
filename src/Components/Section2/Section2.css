@@ -26,3 +26,9 @@
   font-weight: 500;
   color: #3f4254;
 }
+
+@media (max-width: 500px) {
+  .section-2 p {
+    width: 90%;
+  }
+}

@@ -26,3 +26,31 @@ a {
 a:hover {
   color: #0060ff;
 }
+
+@media (max-width: 1400px) {
+  .navbar {
+    padding: 2rem 10rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .links {
+    padding-right: 0rem;
+  }
+
+  a {
+    padding: 0 2rem;
+    transition: all 0.5s;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    padding: 5rem 3rem;
+  }
+}
