@@ -34,6 +34,10 @@ a:hover {
   font-size: 5rem;
 }
 
+.social-media-links {
+  display: none;
+}
+
 @media (max-width: 1400px) {
   .navbar {
     padding: 2rem 10rem;
