@@ -58,11 +58,18 @@
 .section-1 .text .btn-left {
   background-color: #0060ff;
   color: #ffffff;
+  border: 1px solid #0060ff;
 }
 
 .section-1 .text .btn-right {
   background-color: #000000;
   color: #ffffff;
+  border: 1px solid #000;
+}
+
+.section-1 .text .btn-right:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .section-1 .img-container {
