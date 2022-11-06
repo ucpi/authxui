@@ -7,13 +7,21 @@
 }
 
 .section-5 h1 {
-  margin: 15rem 0 5rem 0;
+  margin: 10rem 0 5rem 0;
   font-size: 6rem;
   font-weight: 700;
   color: #000000;
   text-align: center;
+  line-height: 5rem;
 }
 
+.section-5 span {
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(87deg, #36beff, #733ff1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .section-5 .faq-container {
   width: 60rem;
   height: 60rem;
@@ -22,8 +30,11 @@
   margin: 5rem 0 10rem 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section-5 .faq-container {
     width: 90%;
   }
+}
+
+@media (max-width: 500px) {
 }

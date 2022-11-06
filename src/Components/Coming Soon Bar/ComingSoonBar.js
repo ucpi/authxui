@@ -1,8 +1,8 @@
 import React from "react";
 import "./ComingSoonBar.css";
 import polygon from "../Images/polygon.png";
-import ethereum from "../Images/ethereum-logo.png";
-import solana from "../Images/solana-logo.png";
+import ethereum from "../Images/ethereum.png";
+import solana from "../Images/solana.png";
 import polkadot from "../Images/polkadot-logo.png";
 import cosmos from "../Images/cosmos-atom-logo.png";
 

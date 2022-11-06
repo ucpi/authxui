@@ -10,7 +10,7 @@ const Footer = () => {
           <p>
             AuthX protocol is developed by UCPI to enable the transition of Web2
             to Web3 by allowing people to interact with complex DApps through
-            their existing webWeb2 social ids.
+            their existing Web2 social ids.
           </p>
         </div>
         <div className="top-right">
