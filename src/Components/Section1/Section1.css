@@ -189,6 +189,7 @@
 
   .section-1 .text .btn-wrapper .btn {
     margin-top: 2rem;
+    margin-right: 0;
     width: 40rem;
   }
 }
@@ -246,8 +247,8 @@
   }
 
   .section-1 .text .btn {
-    width: 80%;
+    
+    width: 100%;
     padding: 2.5rem;
-    margin-top: 2rem;
   }
 }
