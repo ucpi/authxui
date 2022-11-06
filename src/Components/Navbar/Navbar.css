@@ -8,7 +8,6 @@
 h1 {
   font-size: 4rem;
   font-weight: 400;
-  color: #0060ff;
   cursor: pointer;
 }
 
@@ -27,6 +26,14 @@ a:hover {
   color: #0060ff;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-menu a {
+  font-size: 5rem;
+}
+
 @media (max-width: 1400px) {
   .navbar {
     padding: 2rem 10rem;
@@ -36,6 +43,45 @@ a:hover {
 @media (max-width: 1200px) {
   .navbar {
     padding: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar .links-container {
+    display: none;
+  }
+
+  .navbar .mobile-menu-link {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50rem;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar .links-container .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar .links-container .links a {
+    font-size: 3rem;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 2rem 2rem 3rem 3rem;
+    z-index: 999;
+    background-color: #ffffff;
+    border-bottom-left-radius: 100%;
   }
 }
 
@@ -58,5 +104,14 @@ a:hover {
 @media (max-width: 500px) {
   .navbar {
     padding: 5rem 3rem;
+  }
+
+  .navbar .links-container .links a {
+    font-size: 5rem;
+    margin: 2rem 0;
+  }
+
+  .hamburger-menu {
+    padding: 2rem;
   }
 }
