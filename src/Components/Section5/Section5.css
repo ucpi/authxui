@@ -33,9 +33,7 @@
 
 @media (max-width: 1000px) {
   .section-5 .faq-container {
-    width: 90%;
+    padding: 0;
+    width: 95%;
   }
-}
-
-@media (max-width: 500px) {
 }
