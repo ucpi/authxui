@@ -1,0 +1,45 @@
+.question {
+  background-color: #f2f7fb;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.question h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.question p {
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.answer {
+  padding: 1rem 2rem 3rem 0;
+  font-size: 1.5rem;
+  background-color: #ffe3e346;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+
+@media (max-width: 500px) {
+  .question {
+    padding: 2rem 0 2rem 2rem;
+  }
+  .answer {
+    font-size: 2rem;
+  }
+}
