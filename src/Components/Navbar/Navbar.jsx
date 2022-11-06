@@ -9,7 +9,11 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <h1>authx</h1>
-      <div className={showMenuIcon ? "links-container mobile-menu-link" : "links-container"}>
+      <div
+        className={
+          showMenuIcon ? "links-container mobile-menu-link" : "links-container"
+        }
+      >
         <div className="links">
           <ScrollTo>
             {({ scroll }) => (
@@ -51,6 +55,14 @@ const Navbar = () => {
               </a>
             )}
           </ScrollTo>
+        </div>
+        <div className="social-media-links">
+          <a href="https://twitter.com/UCPI_tech" target="_blank">
+            <i class="fa-brands fa-twitter icon"></i>
+          </a>
+          <a href="https://discord.gg/v6ruvP3v7w" target="_blank">
+            <i class="fa-brands fa-discord icon"></i>
+          </a>
         </div>
       </div>
       {/* Hamburger Menu */}

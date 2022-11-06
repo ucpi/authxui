@@ -59,14 +59,23 @@ a:hover {
     height: 100vh;
     width: 50rem;
     z-index: 99;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
   }
 
   .navbar .links-container .links {
     display: flex;
     flex-direction: column;
+    margin: 10rem 10rem 5rem 5rem;
+  }
+
+  .navbar .mobile-menu-link .social-media-links {
+    display: flex;
+    margin: 20rem 0 0 5rem;
+  }
+
+  .navbar .mobile-menu-link .social-media-links a {
+    font-size: 4rem;
+    margin-right: 4rem;
   }
 
   .navbar .links-container .links a {
@@ -106,12 +115,21 @@ a:hover {
     padding: 5rem 3rem;
   }
 
+  .navbar .links-container .links {
+    margin: 25rem 0 0 5rem;
+  }
+
   .navbar .links-container .links a {
     font-size: 5rem;
-    margin: 2rem 0;
+    margin-bottom: 2rem;
   }
 
   .hamburger-menu {
     padding: 2rem;
+  }
+
+  .navbar .mobile-menu-link .social-media-links {
+    display: flex;
+    margin: 30rem 0 0 5rem;
   }
 }
