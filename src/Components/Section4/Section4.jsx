@@ -6,7 +6,7 @@ import whatsapp from "../Images/whatsapp.png";
 import twitter from "../Images/twitter.png";
 import discord from "../Images/discord.png";
 import gmail from "../Images/gmail.png";
-import blockchain from '../Images/blockchain.png'
+import blockchain from "../Images/blockchain.png";
 
 const Section4 = () => {
   return (
@@ -30,9 +30,19 @@ const Section4 = () => {
         </div>
         <img src={blockchain} alt="blockchain" className="blockchain-img" />
         <p className="step-1">1. User Sign-in on Web2 apps.</p>
-        <p className="step-2">2. JWT Token issued by Web2 app or Auth service provider is shared among UCPI Authentication nodes.</p>
-        <p className="step-3">3. Each Authentication node seperately verifies the JWT token with the centralised issuer via its APIs and pushes the signed verification data and it's vote on AuthX smart Contract.</p>
-        <p className="step-4">4. If all the nodes vote YES, then the Web2 user Id is considered authenticated On-Chain.</p>
+        <p className="step-2">
+          2. JWT Token issued by Web2 app or Auth service provider is shared
+          among UCPI Authentication nodes.
+        </p>
+        <p className="step-3">
+          3. Each Authentication node seperately verifies the JWT token with the
+          centralised issuer via its APIs and pushes the signed verification
+          data and it's vote on AuthX smart Contract.
+        </p>
+        <p className="step-4">
+          4. If all the nodes vote YES, then the Web2 user Id is considered
+          authenticated On-Chain.
+        </p>
       </div>
 
       <a href="" className="doc-link">
@@ -40,7 +50,13 @@ const Section4 = () => {
       </a>
 
       <div className="dapp-developer">
-        <p>If you are a Dapp developer, <a href="">click here</a> to get started!</p>
+        <p>
+          If you are a Dapp developer,{" "}
+          <a href="https://ucpi.gitbook.io/authx/" target="_blank">
+            click here
+          </a>{" "}
+          to get started!
+        </p>
       </div>
     </div>
   );
