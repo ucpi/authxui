@@ -29,7 +29,7 @@ const Navbar = () => {
             {({ scroll }) => (
               <a
                 className="list-item"
-                onClick={() => scroll({ y: 1500, smooth: true })}
+                onClick={() => scroll({ y: 1600, smooth: true })}
               >
                 Use Cases
               </a>
@@ -49,7 +49,7 @@ const Navbar = () => {
             {({ scroll }) => (
               <a
                 className="list-item"
-                onClick={() => scroll({ y: 3500, smooth: true })}
+                onClick={() => scroll({ y: 4200, smooth: true })}
               >
                 FAQs
               </a>
