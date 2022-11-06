@@ -109,36 +109,11 @@
 
   .section-1 .text h1 {
     font-size: 6rem;
-    font-weight: 700;
-    color: #000000;
-    padding-bottom: 3rem;
-    line-height: 8rem;
-  }
-
-  .section-1 .text span {
-    font-size: 5rem;
-    color: #0060ff;
-  }
-
-  .section-1 .text p {
-    font-size: medium;
-    font-weight: 500;
-    color: #3f4254;
-  }
-
-  .section-1 .text .btn-wrapper {
-    padding: 3rem 0;
   }
 
   .section-1 .text .btn {
-    font-size: medium;
-    letter-spacing: 0.1rem;
-    border: none;
-    margin-right: 3rem;
-    padding: 1.5rem 6rem;
-    cursor: pointer;
-    transition: all 0.3s;
-    border-radius: 1.5rem;
+    margin-right: 1rem;
+    padding: 1.5rem 5rem;
   }
 
   .section-1 .img-container .img-wrapper {
@@ -162,9 +137,15 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .section-1 {
+    margin: 5rem 2rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .section-1-main {
-    height: 130vh;
+    height: 160vh;
   }
 
   .section-1 {
@@ -201,8 +182,16 @@
 }
 
 @media (max-width: 500px) {
+  .section-1-main {
+    height: 125vh;
+  }
+  .section-1 {
+    height: 80vh;
+  }
+
   .section-1 .text h1 {
     font-size: 8rem;
+    font-weight: 900;
   }
 
   .section-1 .text span {
@@ -211,6 +200,24 @@
 
   .section-1 .img-container {
     margin-top: 5rem;
+  }
+
+  .section-1 .img-container .img-wrapper {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .section-1 .img-container .img-wrapper img {
+    width: 9rem;
+  }
+
+
+  .section-1 .img-container .arrow-wrapper {
+    width: 5rem;
+  }
+
+  .section-1 .img-container .arrow-wrapper .arrow-img {
+    width: 5rem;
   }
 
   .section-1 .text .btn {

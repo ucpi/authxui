@@ -6,14 +6,14 @@
 }
 
 .section-2 h1 {
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 700;
   color: #000000;
-  margin: 10rem 0 5rem 0;
+  margin: 10rem 0 4rem 0;
 }
 
 .section-2 span {
-  background: -webkit-linear-gradient(87deg,#36beff,#733ff1);
+  background: -webkit-linear-gradient(87deg, #36beff, #733ff1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -22,12 +22,12 @@
   width: 60rem;
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 4rem;
   color: #3f4254;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .section-2 p {
     width: 90%;
   }

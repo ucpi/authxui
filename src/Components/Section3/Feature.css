@@ -3,9 +3,9 @@
   height: 20rem;
   margin: 2rem;
   background: #ffffff;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   padding: 3rem;
-  border: 2px solid #d2dbf2;
+  border: 1px solid #d2dbf2;
   cursor: pointer;
   text-align: center;
 }
@@ -13,7 +13,6 @@
 .feature i {
   font-size: 3rem;
   color: #3c4048;
-  border-radius: 50%;
 }
 
 .feature i:hover {
@@ -29,12 +28,20 @@
 }
 
 @media (max-width: 500px) {
+  .feature {
+    width: 90%;
+    height: 25rem;
+    margin: 2rem;
+    text-align: center;
+  }
+
   .feature p {
     font-size: 2.5rem;
+    margin: 3rem;
   }
 
   .feature i {
-    font-size: 3rem;
-    margin-top: 5rem;
+    font-size: 5rem;
+    margin-top: 2rem;
   }
 }
