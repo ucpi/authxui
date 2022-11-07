@@ -40,15 +40,21 @@ const Section1 = () => {
             Id's and user account on Blockchain.
           </p>
           <div className="btn-wrapper">
-            <button className="btn btn-left">Get Started</button>
+            <a
+              className="btn btn-left"
+              href="https://ucpi.gitbook.io/authx/"
+              target="_blank"
+            >
+              Get Started
+            </a>
             <ScrollTo>
               {({ scroll }) => (
-                <button
+                <a
                   onClick={() => scroll({ y: 2500, smooth: true })}
                   className="btn btn-right"
                 >
                   How it Works?
-                </button>
+                </a>
               )}
             </ScrollTo>
           </div>
