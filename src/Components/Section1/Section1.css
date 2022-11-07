@@ -229,6 +229,10 @@
     font-size: 7rem;
   }
 
+  .section-1 .img-container {
+    margin-top: 10rem;
+  }
+
   .section-1 .img-container .img-wrapper {
     width: 22rem;
     height: 22rem;
