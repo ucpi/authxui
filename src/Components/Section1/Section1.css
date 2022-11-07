@@ -41,7 +41,7 @@
 }
 
 .section-1 .text .btn-wrapper {
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 .section-1 .text .btn {
@@ -79,25 +79,25 @@
 
 .section-1 .img-container .img-wrapper {
   width: 20rem;
-  height: 20rem;
+  height: 18rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.section-1 .img-container .arrow-wrapper {
-  width: 15rem;
-  height: 10rem;
-}
-
 .section-1 .img-container .img-wrapper img {
-  width: 8rem;
+  width: 7rem;
   margin: 1rem;
 }
 
-.section-1 .img-container .img-wrapper .arrow-img {
+.section-1 .img-container .arrow-wrapper {
   width: 8rem;
+  height: 10rem;
+}
+
+.section-1 .img-container .img-wrapper .arrow-img {
+  width: 6rem;
   margin: 1rem;
 }
 
@@ -157,12 +157,12 @@
   }
 
   .section-1 {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
 
   .section-1 .text {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 
   .section-1 .text h1 {
@@ -175,6 +175,10 @@
 
   .section-1 .text .btn {
     margin-right: 2rem;
+  }
+
+  .section-1 .img-container {
+    margin-top: 5rem;
   }
 }
 
@@ -225,10 +229,6 @@
     font-size: 7rem;
   }
 
-  .section-1 .img-container {
-    margin-top: 5rem;
-  }
-
   .section-1 .img-container .img-wrapper {
     width: 22rem;
     height: 22rem;
@@ -246,9 +246,11 @@
     width: 5rem;
   }
 
+  .section-1 .text .btn-wrapper {
+    padding-top: 3rem;
+  }
+
   .section-1 .text .btn {
-    
     width: 100%;
-    padding: 2.5rem;
   }
 }

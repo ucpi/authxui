@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <header>
-      <h1 className="logo">authx</h1>
+      <h1 className="logo">AuthX</h1>
 
       <div
         id="menu-bar"

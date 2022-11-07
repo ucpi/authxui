@@ -75,3 +75,9 @@ header .navbar a:hover {
     text-shadow: 0 2px 3px #888;
   }
 }
+
+@media (max-width: 500px) {
+  header .navbar a {
+    font-size: 2.5rem;
+  }
+}
