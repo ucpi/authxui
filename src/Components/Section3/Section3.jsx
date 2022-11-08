@@ -19,7 +19,10 @@ const Section3 = () => {
   ];
   return (
     <div className="section-3">
-      <h1 className="heading"><span>Features</span><br /> Use Cases</h1>
+      <h1 className="heading">
+        <span>Features</span>
+        <br /> Use Cases
+      </h1>
       <div className="features-container">
         <Feature icon={icon[0]} text={text[0]} />
         <Feature icon={icon[1]} text={text[1]} />
