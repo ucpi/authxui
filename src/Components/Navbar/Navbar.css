@@ -15,11 +15,12 @@ header .logo {
   font-size: 3rem;
   font-weight: bolder;
   cursor: pointer;
+  text-shadow: 0 2px 3px #888;
 }
 
 header .navbar a {
   margin-left: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
   cursor: pointer;
   border-radius: 0.5rem;
@@ -40,9 +41,14 @@ header .navbar a:hover {
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   header {
     padding: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
     position: fixed;
     top: 0;
     left: 0;
