@@ -1,6 +1,7 @@
 import React from "react";
 import Feature from "./Feature";
 import "./Section3.css";
+import { Element } from "react-scroll";
 
 const Section3 = () => {
   const icon = [
@@ -18,18 +19,20 @@ const Section3 = () => {
     "On-Chain authenticated web2 social Ids.",
   ];
   return (
-    <div className="section-3">
-      <h1 className="heading">
-        <span>Features</span>
-        <br /> Use Cases
-      </h1>
-      <div className="features-container">
-        <Feature icon={icon[0]} text={text[0]} />
-        <Feature icon={icon[1]} text={text[1]} />
-        <Feature icon={icon[2]} text={text[2]} />
-        <Feature icon={icon[3]} text={text[3]} />
-      </div>
-    </div>
+    <>
+      <Element id="section-3" className="section-3" name="example-destination">
+        <h1 className="heading">
+          <span>Features</span>
+          <br /> Use Cases
+        </h1>
+        <div className="features-container">
+          <Feature icon={icon[0]} text={text[0]} />
+          <Feature icon={icon[1]} text={text[1]} />
+          <Feature icon={icon[2]} text={text[2]} />
+          <Feature icon={icon[3]} text={text[3]} />
+        </div>
+      </Element>
+    </>
   );
 };
 
