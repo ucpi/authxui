@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { ScrollTo } from "react-scroll-to/dist";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -19,46 +19,46 @@ const Navbar = () => {
       ></div>
 
       <nav className={show ? "navbar active" : "navbar"} id="nav">
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 900, smooth: true })}
-            >
-              Importance
-            </a>
-          )}
-        </ScrollTo>
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 1500, smooth: true })}
-            >
-              Use Cases
-            </a>
-          )}
-        </ScrollTo>
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 2500, smooth: true })}
-            >
-              How It Works?
-            </a>
-          )}
-        </ScrollTo>
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 3500, smooth: true })}
-            >
-              FAQs
-            </a>
-          )}
-        </ScrollTo>
+        <Link
+          activeClass="active"
+          to="section-2"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          Importance
+        </Link>
+        <Link
+          activeClass="active"
+          to="section-3"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          Use Cases
+        </Link>
+        <Link
+          activeClass="active"
+          to="section-4"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          How It Works?
+        </Link>
+        <Link
+          activeClass="active"
+          to="section-5"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          FAQ's
+        </Link>
       </nav>
     </header>
   );

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Section1.css";
+import { Link } from "react-scroll";
 import Navbar from "../Navbar/Navbar";
 import ComingSoonBar from "../Coming Soon Bar/ComingSoonBar";
-import { ScrollTo } from "react-scroll-to/dist";
 import arrow from "../Images/arrow.png";
 // import whatsapp from "../Images/whatsapp-logo.png";
 // import discord from "../Images/discord-logo.png";
@@ -47,16 +47,17 @@ const Section1 = () => {
             >
               Get Started
             </a>
-            <ScrollTo>
-              {({ scroll }) => (
-                <a
-                  onClick={() => scroll({ y: 2500, smooth: true })}
-                  className="btn btn-right"
-                >
-                  How it Works?
-                </a>
-              )}
-            </ScrollTo>
+            <Link
+              activeClass="active"
+              className="btn btn-right"
+              to="section-4"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              How it Works
+            </Link>
           </div>
         </div>
         <div className="img-container">
