@@ -70,7 +70,7 @@
 }
 
 .footer .links .link {
-  margin: 5rem 2rem;
+  margin: 5rem;
 }
 
 .footer a {
@@ -79,7 +79,7 @@
 
 .footer i {
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 2rem;
   transition: all 0.2s;
 }
 
