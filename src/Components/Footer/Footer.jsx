@@ -28,7 +28,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="link">
-            <a href="https://discord.gg/v6ruvP3v7w" target="_blank">
+            <a href="https://discord.com/invite/BBKyvVG7RA" target="_blank">
               <i class="fa-brands fa-discord icon"></i>
             </a>
           </div>
