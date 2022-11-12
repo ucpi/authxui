@@ -7,14 +7,16 @@ import Footer from "./Components/Footer/Footer";
 
 function Main() {
   return (
-    <div className="main">
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      {/* <Section5 /> */}
-      <Footer />
-    </div>
+    <>
+      <div className="main">
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        {/* <Section5 /> */}
+        <Footer />
+      </div>
+    </>
   );
 }
 
