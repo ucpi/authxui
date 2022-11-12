@@ -9,25 +9,19 @@ const Section5 = () => {
 
   return (
     <>
-      <>
-        <Element
-          id="section-5"
-          className="section-5"
-          name="example-destination"
-        >
-          <h1 className="heading">
-            <span>Have any query?</span>
-            <br />
-            FAQ's
-          </h1>
-          <div className="faq-container">
-            {data.map((curElem) => {
-              const { id } = curElem;
-              return <MyAccordion key={id} {...curElem} />;
-            })}
-          </div>
-        </Element>
-      </>
+      <Element id="section-5" className="section-5" name="example-destination">
+        <h1 className="heading">
+          <span>Have any query?</span>
+          <br />
+          FAQ's
+        </h1>
+        <div className="faq-container">
+          {data.map((curElem) => {
+            const { id } = curElem;
+            return <MyAccordion key={id} {...curElem} />;
+          })}
+        </div>
+      </Element>
     </>
   );
 };

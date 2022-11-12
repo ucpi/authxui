@@ -3,10 +3,12 @@ import "./Feature.css";
 
 const Feature = (props) => {
   return (
-    <div className="feature">
-      <i className={props.icon}></i>
-      <p>{props.text}</p>
-    </div>
+    <>
+      <div className="feature">
+        <i className={props.icon}></i>
+        <p>{props.text}</p>
+      </div>
+    </>
   );
 };
 

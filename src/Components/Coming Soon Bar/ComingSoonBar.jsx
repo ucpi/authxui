@@ -8,17 +8,19 @@ import cosmos from "../Images/cosmos-atom-logo.png";
 
 const ComingSoonBar = () => {
   return (
-    <div className="cs-bar">
-      <h2>Coming soon on:</h2>
-      <div className="img-container">
-        <img src={polygon} alt="polygon" />
-        <img src={polkadot} alt="polkadot" />
-        <img src={solana} alt="solana" />
-        <img src={ethereum} alt="ethereum" />
-        <img src={cosmos} alt="cosmos" />
+    <>
+      <div className="cs-bar">
+        <h2>Coming soon on:</h2>
+        <div className="img-container">
+          <img src={polygon} alt="polygon" />
+          <img src={polkadot} alt="polkadot" />
+          <img src={solana} alt="solana" />
+          <img src={ethereum} alt="ethereum" />
+          <img src={cosmos} alt="cosmos" />
+        </div>
+        <h2>and many more...</h2>
       </div>
-      <h2>and many more...</h2>
-    </div>
+    </>
   );
 };
 
