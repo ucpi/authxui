@@ -13,7 +13,6 @@ import arrow from "../Images/arrow.png";
 // import solana from "../Images/solana-logo.png";
 // import polkadot from "../Images/polkadot-logo.png";
 import cosmos from "../Images/cosmos-atom-logo.png";
-import tron from "../Images/tron-logo.png";
 import bnb from "../Images/bnb-logo.png";
 import Main from "../../main";
 import whatsapp from "../Images/whatsapp.png";
