@@ -7,10 +7,10 @@ const Section2 = () => {
     <>
       <Element id="section-2" className="section-2" name="example-destination">
         <h1>
-          Why <span>AuthX</span> ?
+          Why <span>DAuth</span> ?
         </h1>
         <p>
-          Exchange are Money Bridge, Oracles are Data Bridge, similarly AUTHX is
+          Exchange are Money Bridge, Oracles are Data Bridge, similarly DAuth is
           Identity Bridge between Web2 and Web3.
         </p>
         <p>

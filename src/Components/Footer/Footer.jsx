@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-top">
           <div className="top-left">
-            <h1>authx</h1>
+            <h1>DAuth</h1>
             <p>
-              AuthX protocol is developed by UCPI to enable the transition of
+              DAuth protocol is developed by UCPI to enable the transition of
               Web2 to Web3 by allowing people to interact with complex DApps
               through their existing Web2 social ids.
             </p>
