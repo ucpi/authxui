@@ -8,6 +8,11 @@
   border: 1px solid #d2dbf2;
   cursor: pointer;
   text-align: center;
+  transition: all 0.5s;
+}
+
+.feature:hover {
+  transform: scale(1.1);
 }
 
 .feature i {
