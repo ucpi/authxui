@@ -51,8 +51,6 @@ const Machine = () => {
         >
           <GoogleOAuthProvider clientId="200258434787-u82a51f1huvslf3m8dcnh5gq8uolsjko.apps.googleusercontent.com">
             <GoogleLogin
-              uxMode="popup"
-              theme="dark"
               onSuccess={(credentialResponse) => {
                 // setLoading(true);
                 console.log(credentialResponse.credential);
