@@ -16,9 +16,9 @@ import {
 import ClipLoader from "react-spinners/ClipLoader";
 import './Machine.css'
 const Machine = () => {
-  const SC_ADDRESS = "0xdCFbBec5f22b22ACE035C588Bec740185f7cfD3B";
+  const SC_ADDRESS = "0xb3F0e97aBA391fC10a16F196a08BaA475c604b26";
   const sm = "0x4091c90f4F22F1563a264FE5bE7AAfB97BD87EB4";
-  const web3 = new Web3("https://api.s0.ps.hmny.io");
+  const web3 = new Web3('https://testnet.telos.net/evm');
   const aud =
     "200258434787-u82a51f1huvslf3m8dcnh5gq8uolsjko.apps.googleusercontent.com";
   const ucpism = new web3.eth.Contract(abi, SC_ADDRESS);
