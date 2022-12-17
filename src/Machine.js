@@ -16,7 +16,7 @@ import {
 import ClipLoader from "react-spinners/ClipLoader";
 import './Machine.css'
 const Machine = () => {
-  const SC_ADDRESS = "0xb3F0e97aBA391fC10a16F196a08BaA475c604b26";
+  const SC_ADDRESS = "0x9ccE09aB8d6aB4D0ae0434b33A16DEF0c21D162D";
   const sm = "0x4091c90f4F22F1563a264FE5bE7AAfB97BD87EB4";
   const web3 = new Web3('https://testnet.telos.net/evm');
   const aud =
